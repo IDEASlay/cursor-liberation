@@ -1,0 +1,27 @@
+theme: jekyll-theme-cayman
+title: "🔓 Cursor Chat Liberation"
+description: "Breaking Free from Vendor Lock-In with Dignity and Technical Excellence"
+show_downloads: true
+google_analytics: 
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# GitHub repository info
+repository: IDEASlay/cursor-liberation
+github:
+  repository_url: https://github.com/IDEASlay/cursor-liberation
+
+# Site settings
+url: "https://ideaslay.github.io"
+baseurl: "/cursor-liberation"
+permalink: pretty
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  hard_wrap: false
