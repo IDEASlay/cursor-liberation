@@ -1,0 +1,36 @@
+theme: jekyll-theme-cayman
+
+title: "🔓 Cursor Chat Liberation"
+description: "Breaking Free from Vendor Lock-In with Dignity and Technical Excellence"
+
+# Site settings
+url: "https://ideaslay.github.io"
+baseurl: "/cursor-liberation"
+author: "IDEASlay"
+twitter_username: "IDEASlay"
+github_username: "IDEASlay"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - "*.exe"
+  - "*.pdb"
+  - "*.rs"
+
+# Custom variables
+repository: "IDEASlay/cursor-liberation"
+show_downloads: true
